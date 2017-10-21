@@ -4,6 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
+    "del-b": "rmdir \"node_modules/ngx-new-datatable\" /s /q && npm install",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -22,6 +23,7 @@
     "@angular/platform-browser-dynamic": "^4.2.4",
     "@angular/router": "^4.2.4",
     "core-js": "^2.4.1",
+    "ngx-simple-datatable": "0.0.3",
     "rxjs": "^5.4.2",
     "zone.js": "^0.8.14"
   },
